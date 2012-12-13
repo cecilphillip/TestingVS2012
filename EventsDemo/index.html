@@ -6,61 +6,50 @@
     <script type="text/javascript" src="scripts/modernizr"></script>
 </head>
 <body>
-
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
                 <span class="brand">Events Demo</span>
+                <ul class="nav">
+                    <li><a href="#" data-bind="click: loadEvents">All</a></li>
+                    <li><a href="#" data-bind="click: loadUpcomingEvents">Upcoming</a></li>
+                    <li><a href="#" data-bind="click: loadPastEvents">Past</a></li>
+                </ul>
+                <div class="span8">
+
+                    <div class="input-append pull-right" style="margin-top: 5px">
+                        <input id="searchbox" type="text" placeholder="Search" />
+                        <button class="btn" type="button" data-bind="click: searchEvents">Go!</button>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
 
     <div class="main container">
-        <div class="row">
-            <div class="eventlist span8">
-                <ul class="media-list">
-                    <li class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object" src="Content/images/placeholder.gif" alt="">
-                        </a>
-                        <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio,
-                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                    </li>
-                    <li class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object" src="Content/images/placeholder.gif" alt="">
-                        </a>
-                        <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio,
-                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                    </li>
-                    <li class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object" src="Content/images/placeholder.gif" alt="">
-                        </a>
-                        <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio,
-                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="sidebar span3">
-                ok
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-            </div>
+        <div class="eventlist">
+            <ul class="media-list" data-bind="template: {name: 'media-item-template', foreach:events}">
+            </ul>     
         </div>
     </div>
+
+    <script type="text/html" id="media-item-template">
+        <li class="media">
+            <a class="pull-left" href="#">
+                <img class="media-object" src="Content/images/placeholder.gif" alt="">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading" data-bind="text: Title"></h4>
+                <span class="media-sub-heading" data-bind="text: $root.formatDate(StartDateTime)"></span>
+                <br />
+                <span class="media-sub-heading" style="color: #04C" data-bind="text: Address"></span>
+                <br />
+                <!--ko text:Description-->
+                <!--/ko-->
+            </div>
+        </li>
+    </script>
     <script type="text/javascript" src="scripts/js"></script>
 </body>
 </html>

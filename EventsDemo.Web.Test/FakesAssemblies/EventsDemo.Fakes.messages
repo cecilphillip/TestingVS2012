@@ -1,0 +1,2 @@
+C:\Users\pcecil\Documents\GitHub\TestVS2012\EventsDemo.Web.Test\Fakes\EventsDemo.fakes : warning : Cannot generate stub for EventsDemo.IocConfig: type is sealed.
+C:\Users\pcecil\Documents\GitHub\TestVS2012\EventsDemo.Web.Test\Fakes\EventsDemo.fakes : warning : Cannot generate stub for EventsDemo.WebApiConfig: type is sealed.

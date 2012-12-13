@@ -5,9 +5,10 @@
     background-color: #eeeeee;
 }
 
-.main {
-
+.main
+{
 }
+
 .eventlist, .sidebar
 {
     -moz-border-radius: 4px;
@@ -16,10 +17,37 @@
     background-color: #f9f9f9;
     /*border: 1px solid #EEE;*/
     border: 1px solid #e5e5e5;
-    margin-top:10px;
+    margin-top: 10px;
     padding: 5px;
 }
 
-.navbar-inverse .brand {
+.navbar-inverse .brand
+{
     color: #FFFFFF;
+}
+
+
+.navbar-inverse .navbar-search .search-query
+{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a
+{
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.media,
+.media .media
+{
+    margin-top: 40px;
+}
+
+span.media-sub-heading
+{
+ color: #317EAC;
+ font-size: 13px;
 }

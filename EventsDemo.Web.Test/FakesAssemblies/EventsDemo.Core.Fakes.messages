@@ -1,0 +1,8 @@
+C:\Users\pcecil\Documents\GitHub\TestVS2012\EventsDemo.Web.Test\Fakes\EventsDemo.Core.fakes : warning : Cannot generate stub for EventsDemo.Data.EventData: type is sealed.
+C:\Users\pcecil\Documents\GitHub\TestVS2012\EventsDemo.Web.Test\Fakes\EventsDemo.Core.fakes : warning : Cannot generate stub for EventsDemo.Migrations.Configuration: type is sealed.
+C:\Users\pcecil\Documents\GitHub\TestVS2012\EventsDemo.Web.Test\Fakes\EventsDemo.Core.fakes : warning : Cannot generate shim for EventsDemo.Caching.ICacheService: type is an interface.
+C:\Users\pcecil\Documents\GitHub\TestVS2012\EventsDemo.Web.Test\Fakes\EventsDemo.Core.fakes : warning : Cannot generate shim for EventsDemo.Data.IRepository`1: type is an interface.
+C:\Users\pcecil\Documents\GitHub\TestVS2012\EventsDemo.Web.Test\Fakes\EventsDemo.Core.fakes : warning : Cannot generate shim for EventsDemo.IEventsService: type is an interface.
+C:\Users\pcecil\Documents\GitHub\TestVS2012\EventsDemo.Web.Test\Fakes\EventsDemo.Core.fakes : warning : Cannot generate shim for EventsDemo.EventsService+<>c__DisplayClass0: type is not supported because of internal limitations.
+C:\Users\pcecil\Documents\GitHub\TestVS2012\EventsDemo.Web.Test\Fakes\EventsDemo.Core.fakes : warning : Cannot generate shim for EventsDemo.EventsService+<>c__DisplayClass2: type is not supported because of internal limitations.
+C:\Users\pcecil\Documents\GitHub\TestVS2012\EventsDemo.Web.Test\Fakes\EventsDemo.Core.fakes : warning : Cannot generate shim for EventsDemo.Migrations.Configuration: type is not visible to exported or assembly(EventsDemo.Core.Fakes).

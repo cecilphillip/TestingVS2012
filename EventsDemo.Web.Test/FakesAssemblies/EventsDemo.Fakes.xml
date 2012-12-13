@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EventsDemo.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:EventsDemo.Fakes.ShimBundleConfig">
+            <summary>Shim type of EventsDemo.BundleConfig</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimBundleConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimBundleConfig.#ctor(EventsDemo.BundleConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimBundleConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimBundleConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimBundleConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimBundleConfig.Constructor">
+            <summary>Sets the shim of BundleConfig.BundleConfig()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimBundleConfig.RegisterBundlesBundleCollection">
+            <summary>Sets the shim of BundleConfig.RegisterBundles(BundleCollection bundles)</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimBundleConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimEventsController">
+            <summary>Shim type of EventsDemo.EventsController</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsController.#ctor(EventsDemo.EventsController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsController.Bind(System.Web.Http.Controllers.IHttpController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.ConstructorIEventsService">
+            <summary>Sets the shim of EventsController.EventsController(IEventsService repo)</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.GetEventByIDInt32">
+            <summary>Sets the shim of EventsController.GetEventByID(Int32 eventID)</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.GetEvents">
+            <summary>Sets the shim of EventsController.GetEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.GetPastEvents">
+            <summary>Sets the shim of EventsController.GetPastEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.GetUpcomingEvents">
+            <summary>Sets the shim of EventsController.GetUpcomingEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.SearchEventTitleString">
+            <summary>Sets the shim of EventsController.SearchEventTitle(String searchTerm)</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimEventsController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.AllInstances.GetEventByIDInt32">
+            <summary>Sets the shim of EventsController.GetEventByID(Int32 eventID)</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.AllInstances.GetEvents">
+            <summary>Sets the shim of EventsController.GetEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.AllInstances.GetPastEvents">
+            <summary>Sets the shim of EventsController.GetPastEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.AllInstances.GetUpcomingEvents">
+            <summary>Sets the shim of EventsController.GetUpcomingEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsController.AllInstances.SearchEventTitleString">
+            <summary>Sets the shim of EventsController.SearchEventTitle(String searchTerm)</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimIocConfig">
+            <summary>Shim type of EventsDemo.IocConfig</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimIocConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimIocConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimIocConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimIocConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimIocConfig.Configure">
+            <summary>Sets the shim of IocConfig.Configure()</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimWebApiApplication">
+            <summary>Shim type of EventsDemo.WebApiApplication</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiApplication.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiApplication.#ctor(EventsDemo.WebApiApplication)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiApplication.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiApplication.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiApplication.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiApplication.Bind(System.Web.IHttpAsyncHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiApplication.Bind(System.Web.IHttpHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiApplication.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimWebApiApplication.Application_Start">
+            <summary>Sets the shim of WebApiApplication.Application_Start()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimWebApiApplication.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimWebApiApplication.Constructor">
+            <summary>Sets the shim of WebApiApplication.WebApiApplication()</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimWebApiApplication.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimWebApiApplication.AllInstances.Application_Start">
+            <summary>Sets the shim of WebApiApplication.Application_Start()</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimWebApiConfig">
+            <summary>Shim type of EventsDemo.WebApiConfig</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimWebApiConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimWebApiConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimWebApiConfig.RegisterHttpConfiguration">
+            <summary>Sets the shim of WebApiConfig.Register(HttpConfiguration config)</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.StubBundleConfig">
+            <summary>Stub type of EventsDemo.BundleConfig</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubBundleConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubBundleConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubBundleConfig</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubBundleConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubBundleConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubBundleConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.StubEventsController">
+            <summary>Stub type of EventsDemo.EventsController</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubEventsController.#ctor(EventsDemo.IEventsService)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubEventsController.Dispose(System.Boolean)">
+            <summary>Sets the stub of ApiController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubEventsController.DisposeBoolean">
+            <summary>Sets the stub of ApiController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubEventsController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext,System.Threading.CancellationToken)">
+            <summary>Sets the stub of ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubEventsController.ExecuteAsyncHttpControllerContextCancellationToken">
+            <summary>Sets the stub of ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubEventsController.Initialize(System.Web.Http.Controllers.HttpControllerContext)">
+            <summary>Sets the stub of ApiController.Initialize(HttpControllerContext controllerContext)</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubEventsController.InitializeHttpControllerContext">
+            <summary>Sets the stub of ApiController.Initialize(HttpControllerContext controllerContext)</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubEventsController.InitializeStub">
+            <summary>Initializes a new instance of type StubEventsController</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubEventsController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubEventsController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubEventsController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.StubWebApiApplication">
+            <summary>Stub type of EventsDemo.WebApiApplication</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubWebApiApplication.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubWebApiApplication.Dispose">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubWebApiApplication.Dispose01">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubWebApiApplication.GetOutputCacheProviderName(System.Web.HttpContext)">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubWebApiApplication.GetOutputCacheProviderNameHttpContext">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubWebApiApplication.GetVaryByCustomString(System.Web.HttpContext,System.String)">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubWebApiApplication.GetVaryByCustomStringHttpContextString">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubWebApiApplication.Init">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubWebApiApplication.Init01">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubWebApiApplication.InitializeStub">
+            <summary>Initializes a new instance of type StubWebApiApplication</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubWebApiApplication.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubWebApiApplication.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubWebApiApplication.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

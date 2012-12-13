@@ -11,70 +11,71 @@ namespace EventsDemo
 {
     public class EventsController : ApiController
     {
-        private IRepository<Event> repo;
+        private IEventsService eventService;
 
-        public EventsController()
-        {
-            this.repo = new EventRepository();
-        }
+        //public EventsController()
+        //{
+        //    this.repo = new EventRepository();
+        //}
 
-        public EventsController(IRepository<Event> repo)
+        public EventsController(IEventsService repo)
         {
-            this.repo = repo;
+            this.eventService = repo;
         }
 
         [ActionName("list")]
         public HttpResponseMessage GetEvents()
         {
-            var results = repo.All();
+            var results = eventService.GetEvents();
             if (results.Any())
             {
                 return this.Request.CreateResponse(HttpStatusCode.OK, results);
             }
-            return this.Request.CreateResponse(HttpStatusCode.NotFound);
+            return this.Request.CreateResponse(HttpStatusCode.NoContent);
         }
 
         [ActionName("byid")]
         public HttpResponseMessage GetEventByID(int eventID)
         {
-            var @event = this.repo.FindSingle(e => e.ID == eventID);
+            var @event = this.eventService.GetEventByID(eventID);
             if (@event != null)
             {
                 return this.Request.CreateResponse(HttpStatusCode.OK, @event);
             }
-            return this.Request.CreateResponse(HttpStatusCode.NotFound);
+            return this.Request.CreateResponse(HttpStatusCode.NoContent);
         }
 
         [ActionName("past")]
         public HttpResponseMessage GetPastEvents()
         {
-            var results = repo.Find(e => e.StartDateTime < DateTime.Now);
+            var results = eventService.GetPastEvents();
             if (results.Any())
             {
                 return this.Request.CreateResponse(HttpStatusCode.OK, results);
             }
-            return this.Request.CreateResponse(HttpStatusCode.NotFound);
+            return this.Request.CreateResponse(HttpStatusCode.NoContent);
         }
 
         [ActionName("upcoming")]
         public HttpResponseMessage GetUpcomingEvents()
         {
-            var results = repo.Find(e => e.StartDateTime < DateTime.Now);
+            var results = eventService.GetUpcomingEvents();
             if (results.Any())
             {
                 return this.Request.CreateResponse(HttpStatusCode.OK, results);
             }
-            return this.Request.CreateResponse(HttpStatusCode.NotFound);
+            return this.Request.CreateResponse(HttpStatusCode.NoContent);
         }
 
         [ActionName("search")]
+        [HttpGet]
         public HttpResponseMessage SearchEventTitle(string searchTerm) {
-            var results = repo.Find(e => e.Title.Contains(searchTerm) || e.Description.Contains(searchTerm);
+            var results = eventService.SearchEvent(searchTerm);
             if (results.Any())
             {
                 return this.Request.CreateResponse(HttpStatusCode.OK, results);
             }
-            return this.Request.CreateResponse(HttpStatusCode.NotFound);
+            return this.Request.CreateResponse(HttpStatusCode.NoContent);
         }
     }
 }

@@ -1,0 +1,704 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EventsDemo.Core.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache">
+            <summary>Shim type of EventsDemo.Caching.DefaultMemoryCache</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.#ctor(EventsDemo.Caching.DefaultMemoryCache)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.Bind(EventsDemo.Caching.ICacheService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.RetrieveOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,``0})">
+            <summary>Sets the shim of DefaultMemoryCache.Retrieve(String key)</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.Constructor">
+            <summary>Sets the shim of DefaultMemoryCache.DefaultMemoryCache()</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.ExistsString">
+            <summary>Sets the shim of DefaultMemoryCache.Exists(String key)</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.GetKeys">
+            <summary>Sets the shim of DefaultMemoryCache.GetKeys()</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.RemoveString">
+            <summary>Sets the shim of DefaultMemoryCache.Remove(String key)</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.StaticConstructor">
+            <summary>Sets the shim of DefaultMemoryCache.DefaultMemoryCache()</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.StoreStringObject">
+            <summary>Sets the shim of DefaultMemoryCache.Store(String key, Object objectToCache)</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.StoreStringObjectTimeSpan">
+            <summary>Sets the shim of DefaultMemoryCache.Store(String key, Object objectToCache, TimeSpan slidingExpiration)</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache._GetKeysb__1KeyValuePairOfStringObject">
+            <summary>Sets the shim of DefaultMemoryCache.&lt;GetKeys&gt;b__1(KeyValuePair`2&lt;String,Object&gt; keyValuePair)</summary>
+        </member>
+        <member name="T:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.AllInstances.RetrieveOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{EventsDemo.Caching.DefaultMemoryCache,System.String,``0})">
+            <summary>Sets the shim of DefaultMemoryCache.Retrieve(String key)</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.AllInstances.ExistsString">
+            <summary>Sets the shim of DefaultMemoryCache.Exists(String key)</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.AllInstances.GetKeys">
+            <summary>Sets the shim of DefaultMemoryCache.GetKeys()</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.AllInstances.RemoveString">
+            <summary>Sets the shim of DefaultMemoryCache.Remove(String key)</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.AllInstances.StoreStringObject">
+            <summary>Sets the shim of DefaultMemoryCache.Store(String key, Object objectToCache)</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.ShimDefaultMemoryCache.AllInstances.StoreStringObjectTimeSpan">
+            <summary>Sets the shim of DefaultMemoryCache.Store(String key, Object objectToCache, TimeSpan slidingExpiration)</summary>
+        </member>
+        <member name="T:EventsDemo.Caching.Fakes.StubDefaultMemoryCache">
+            <summary>Stub type of EventsDemo.Caching.DefaultMemoryCache</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.Exists(System.String)">
+            <summary>Sets the stub of DefaultMemoryCache.Exists(String key)</summary>
+        </member>
+        <member name="F:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.ExistsString">
+            <summary>Sets the stub of DefaultMemoryCache.Exists(String key)</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.GetKeys">
+            <summary>Sets the stub of DefaultMemoryCache.GetKeys()</summary>
+        </member>
+        <member name="F:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.GetKeys01">
+            <summary>Sets the stub of DefaultMemoryCache.GetKeys()</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.InitializeStub">
+            <summary>Initializes a new instance of type StubDefaultMemoryCache</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.Remove(System.String)">
+            <summary>Sets the stub of DefaultMemoryCache.Remove(String key)</summary>
+        </member>
+        <member name="F:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.RemoveString">
+            <summary>Sets the stub of DefaultMemoryCache.Remove(String key)</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.Retrieve``1(System.String)">
+            <summary>Sets the stub of DefaultMemoryCache.Retrieve(String key)</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.RetrieveOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,``0})">
+            <summary>Sets stubs of Retrieve(String key)</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.Store(System.String,System.Object)">
+            <summary>Sets the stub of DefaultMemoryCache.Store(String key, Object objectToCache)</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.Store(System.String,System.Object,System.TimeSpan)">
+            <summary>Sets the stub of DefaultMemoryCache.Store(String key, Object objectToCache, TimeSpan slidingExpiration)</summary>
+        </member>
+        <member name="F:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.StoreStringObject">
+            <summary>Sets the stub of DefaultMemoryCache.Store(String key, Object objectToCache)</summary>
+        </member>
+        <member name="F:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.StoreStringObjectTimeSpan">
+            <summary>Sets the stub of DefaultMemoryCache.Store(String key, Object objectToCache, TimeSpan slidingExpiration)</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EventsDemo.Caching.Fakes.StubDefaultMemoryCache.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EventsDemo.Caching.Fakes.StubICacheService">
+            <summary>Stub type of EventsDemo.Caching.ICacheService</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubICacheService.#ctor">
+            <summary>Initializes a new instance of type StubICacheService</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubICacheService.edc::EventsDemo#Caching#ICacheService#Exists(System.String)">
+            <summary>Sets the stub of ICacheService.Exists(String key)</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubICacheService.edc::EventsDemo#Caching#ICacheService#GetKeys">
+            <summary>Sets the stub of ICacheService.GetKeys()</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubICacheService.edc::EventsDemo#Caching#ICacheService#Remove(System.String)">
+            <summary>Sets the stub of ICacheService.Remove(String key)</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubICacheService.edc::EventsDemo#Caching#ICacheService#Retrieve``1(System.String)">
+            <summary>Sets the stub of ICacheService.Retrieve(String key)</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubICacheService.edc::EventsDemo#Caching#ICacheService#Store(System.String,System.Object)">
+            <summary>Sets the stub of ICacheService.Store(String key, Object objectToCache)</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubICacheService.edc::EventsDemo#Caching#ICacheService#Store(System.String,System.Object,System.TimeSpan)">
+            <summary>Sets the stub of ICacheService.Store(String key, Object objectToCache, TimeSpan slidingExpiration)</summary>
+        </member>
+        <member name="F:EventsDemo.Caching.Fakes.StubICacheService.ExistsString">
+            <summary>Sets the stub of ICacheService.Exists(String key)</summary>
+        </member>
+        <member name="F:EventsDemo.Caching.Fakes.StubICacheService.GetKeys">
+            <summary>Sets the stub of ICacheService.GetKeys()</summary>
+        </member>
+        <member name="F:EventsDemo.Caching.Fakes.StubICacheService.RemoveString">
+            <summary>Sets the stub of ICacheService.Remove(String key)</summary>
+        </member>
+        <member name="M:EventsDemo.Caching.Fakes.StubICacheService.RetrieveOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,``0})">
+            <summary>Sets stubs of Retrieve(String key)</summary>
+        </member>
+        <member name="F:EventsDemo.Caching.Fakes.StubICacheService.StoreStringObject">
+            <summary>Sets the stub of ICacheService.Store(String key, Object objectToCache)</summary>
+        </member>
+        <member name="F:EventsDemo.Caching.Fakes.StubICacheService.StoreStringObjectTimeSpan">
+            <summary>Sets the stub of ICacheService.Store(String key, Object objectToCache, TimeSpan slidingExpiration)</summary>
+        </member>
+        <member name="T:EventsDemo.Data.Fakes.ShimEventData">
+            <summary>Shim type of EventsDemo.Data.EventData</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventData.Initialize">
+            <summary>Sets the shim of EventData.Initialize()</summary>
+        </member>
+        <member name="T:EventsDemo.Data.Fakes.ShimEventRepository">
+            <summary>Shim type of EventsDemo.Data.EventRepository</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventRepository.#ctor(EventsDemo.Data.EventRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventRepository.Bind(EventsDemo.Data.IRepository{EventsDemo.Models.Event})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.All">
+            <summary>Sets the shim of EventRepository.All()</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.ConstructorEventsDemoContext">
+            <summary>Sets the shim of EventRepository.EventRepository(EventsDemoContext ctx)</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.DeleteInt32">
+            <summary>Sets the shim of EventRepository.Delete(Int32 id)</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.FindExpressionOfFuncOfEventBoolean">
+            <summary>Sets the shim of EventRepository.Find(Expression`1&lt;Func`2&lt;Event,Boolean&gt;&gt; exp)</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.FindSingleExpressionOfFuncOfEventBoolean">
+            <summary>Sets the shim of EventRepository.FindSingle(Expression`1&lt;Func`2&lt;Event,Boolean&gt;&gt; exp)</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.InsertOrUpdateEvent">
+            <summary>Sets the shim of EventRepository.InsertOrUpdate(Event entity)</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.Save">
+            <summary>Sets the shim of EventRepository.Save()</summary>
+        </member>
+        <member name="T:EventsDemo.Data.Fakes.ShimEventRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.AllInstances.All">
+            <summary>Sets the shim of EventRepository.All()</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.AllInstances.DeleteInt32">
+            <summary>Sets the shim of EventRepository.Delete(Int32 id)</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.AllInstances.FindExpressionOfFuncOfEventBoolean">
+            <summary>Sets the shim of EventRepository.Find(Expression`1&lt;Func`2&lt;Event,Boolean&gt;&gt; exp)</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.AllInstances.FindSingleExpressionOfFuncOfEventBoolean">
+            <summary>Sets the shim of EventRepository.FindSingle(Expression`1&lt;Func`2&lt;Event,Boolean&gt;&gt; exp)</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.AllInstances.InsertOrUpdateEvent">
+            <summary>Sets the shim of EventRepository.InsertOrUpdate(Event entity)</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventRepository.AllInstances.Save">
+            <summary>Sets the shim of EventRepository.Save()</summary>
+        </member>
+        <member name="T:EventsDemo.Data.Fakes.ShimEventsDemoContext">
+            <summary>Shim type of EventsDemo.Data.EventsDemoContext</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventsDemoContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventsDemoContext.#ctor(EventsDemo.Data.EventsDemoContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventsDemoContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventsDemoContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventsDemoContext.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.ShimEventsDemoContext.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventsDemoContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventsDemoContext.Constructor">
+            <summary>Sets the shim of EventsDemoContext.EventsDemoContext()</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventsDemoContext.EventsGet">
+            <summary>Sets the shim of EventsDemoContext.get_Events()</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventsDemoContext.EventsSetIDbSetOfEvent">
+            <summary>Sets the shim of EventsDemoContext.set_Events(IDbSet`1&lt;Event&gt; value)</summary>
+        </member>
+        <member name="T:EventsDemo.Data.Fakes.ShimEventsDemoContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventsDemoContext.AllInstances.EventsGet">
+            <summary>Sets the shim of EventsDemoContext.get_Events()</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.ShimEventsDemoContext.AllInstances.EventsSetIDbSetOfEvent">
+            <summary>Sets the shim of EventsDemoContext.set_Events(IDbSet`1&lt;Event&gt; value)</summary>
+        </member>
+        <member name="T:EventsDemo.Data.Fakes.StubEventRepository">
+            <summary>Stub type of EventsDemo.Data.EventRepository</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventRepository.#ctor(EventsDemo.Data.EventsDemoContext)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubEventRepository</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.StubEventRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.StubEventRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.StubEventRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EventsDemo.Data.Fakes.StubEventsDemoContext">
+            <summary>Stub type of EventsDemo.Data.EventsDemoContext</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventsDemoContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventsDemoContext.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubEventsDemoContext.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventsDemoContext.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubEventsDemoContext.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventsDemoContext.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubEventsDemoContext.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventsDemoContext.InitializeStub">
+            <summary>Initializes a new instance of type StubEventsDemoContext</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventsDemoContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubEventsDemoContext.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventsDemoContext.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubEventsDemoContext.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventsDemoContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubEventsDemoContext.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventsDemoContext.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubEventsDemoContext.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubEventsDemoContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubEventsDemoContext.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.StubEventsDemoContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.StubEventsDemoContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EventsDemo.Data.Fakes.StubEventsDemoContext.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EventsDemo.Data.Fakes.StubIRepository`1">
+            <summary>Stub type of EventsDemo.Data.IRepository`1</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubIRepository`1.#ctor">
+            <summary>Initializes a new instance of type StubIRepository</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubIRepository`1.All">
+            <summary>Sets the stub of IRepository`1.All()</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubIRepository`1.DeleteInt32">
+            <summary>Sets the stub of IRepository`1.Delete(Int32 id)</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubIRepository`1.edc::EventsDemo#Data#IRepository{T}#All">
+            <summary>Sets the stub of IRepository`1.All()</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubIRepository`1.edc::EventsDemo#Data#IRepository{T}#Delete(System.Int32)">
+            <summary>Sets the stub of IRepository`1.Delete(Int32 id)</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubIRepository`1.edc::EventsDemo#Data#IRepository{T}#Find(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.Find(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; exp)</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubIRepository`1.edc::EventsDemo#Data#IRepository{T}#FindSingle(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.FindSingle(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; exp)</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubIRepository`1.edc::EventsDemo#Data#IRepository{T}#InsertOrUpdate(`0)">
+            <summary>Sets the stub of IRepository`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="M:EventsDemo.Data.Fakes.StubIRepository`1.edc::EventsDemo#Data#IRepository{T}#Save">
+            <summary>Sets the stub of IRepository`1.Save()</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubIRepository`1.FindExpressionOfFuncOfT0Boolean">
+            <summary>Sets the stub of IRepository`1.Find(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; exp)</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubIRepository`1.FindSingleExpressionOfFuncOfT0Boolean">
+            <summary>Sets the stub of IRepository`1.FindSingle(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; exp)</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubIRepository`1.InsertOrUpdateT0">
+            <summary>Sets the stub of IRepository`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="F:EventsDemo.Data.Fakes.StubIRepository`1.Save">
+            <summary>Sets the stub of IRepository`1.Save()</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimEventsDemoSeedInitializer">
+            <summary>Shim type of EventsDemo.EventsDemoSeedInitializer</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsDemoSeedInitializer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsDemoSeedInitializer.#ctor(EventsDemo.EventsDemoSeedInitializer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsDemoSeedInitializer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsDemoSeedInitializer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsDemoSeedInitializer.Bind(System.Data.Entity.IDatabaseInitializer{EventsDemo.Data.EventsDemoContext})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsDemoSeedInitializer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsDemoSeedInitializer.Constructor">
+            <summary>Sets the shim of EventsDemoSeedInitializer.EventsDemoSeedInitializer()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsDemoSeedInitializer.SeedEventsDemoContext">
+            <summary>Sets the shim of EventsDemoSeedInitializer.Seed(EventsDemoContext context)</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimEventsDemoSeedInitializer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsDemoSeedInitializer.AllInstances.SeedEventsDemoContext">
+            <summary>Sets the shim of EventsDemoSeedInitializer.Seed(EventsDemoContext context)</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimEventsService">
+            <summary>Shim type of EventsDemo.EventsService</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsService.#ctor(EventsDemo.EventsService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.ShimEventsService.Bind(EventsDemo.IEventsService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.ConstructorIRepositoryOfEventICacheService">
+            <summary>Sets the shim of EventsService.EventsService(IRepository`1&lt;Event&gt; repo, ICacheService cache)</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.GetEventByIDInt32">
+            <summary>Sets the shim of EventsService.GetEventByID(Int32 eventID)</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.GetEvents">
+            <summary>Sets the shim of EventsService.GetEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.GetPastEvents">
+            <summary>Sets the shim of EventsService.GetPastEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.GetUpcomingEvents">
+            <summary>Sets the shim of EventsService.GetUpcomingEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.SearchEventString">
+            <summary>Sets the shim of EventsService.SearchEvent(String searchTerm)</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.ShimEventsService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.AllInstances.GetEventByIDInt32">
+            <summary>Sets the shim of EventsService.GetEventByID(Int32 eventID)</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.AllInstances.GetEvents">
+            <summary>Sets the shim of EventsService.GetEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.AllInstances.GetPastEvents">
+            <summary>Sets the shim of EventsService.GetPastEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.AllInstances.GetUpcomingEvents">
+            <summary>Sets the shim of EventsService.GetUpcomingEvents()</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.ShimEventsService.AllInstances.SearchEventString">
+            <summary>Sets the shim of EventsService.SearchEvent(String searchTerm)</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.StubEventsDemoSeedInitializer">
+            <summary>Stub type of EventsDemo.EventsDemoSeedInitializer</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubEventsDemoSeedInitializer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubEventsDemoSeedInitializer.InitializeStub">
+            <summary>Initializes a new instance of type StubEventsDemoSeedInitializer</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubEventsDemoSeedInitializer.Seed(EventsDemo.Data.EventsDemoContext)">
+            <summary>Sets the stub of EventsDemoSeedInitializer.Seed(EventsDemoContext context)</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubEventsDemoSeedInitializer.SeedEventsDemoContext">
+            <summary>Sets the stub of EventsDemoSeedInitializer.Seed(EventsDemoContext context)</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubEventsDemoSeedInitializer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubEventsDemoSeedInitializer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubEventsDemoSeedInitializer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.StubEventsService">
+            <summary>Stub type of EventsDemo.EventsService</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubEventsService.#ctor(EventsDemo.Data.IRepository{EventsDemo.Models.Event},EventsDemo.Caching.ICacheService)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubEventsService.InitializeStub">
+            <summary>Initializes a new instance of type StubEventsService</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubEventsService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubEventsService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EventsDemo.Fakes.StubEventsService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EventsDemo.Fakes.StubIEventsService">
+            <summary>Stub type of EventsDemo.IEventsService</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubIEventsService.#ctor">
+            <summary>Initializes a new instance of type StubIEventsService</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubIEventsService.edc::EventsDemo#IEventsService#GetEventByID(System.Int32)">
+            <summary>Sets the stub of IEventsService.GetEventByID(Int32 eventID)</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubIEventsService.edc::EventsDemo#IEventsService#GetEvents">
+            <summary>Sets the stub of IEventsService.GetEvents()</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubIEventsService.edc::EventsDemo#IEventsService#GetPastEvents">
+            <summary>Sets the stub of IEventsService.GetPastEvents()</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubIEventsService.edc::EventsDemo#IEventsService#GetUpcomingEvents">
+            <summary>Sets the stub of IEventsService.GetUpcomingEvents()</summary>
+        </member>
+        <member name="M:EventsDemo.Fakes.StubIEventsService.edc::EventsDemo#IEventsService#SearchEvent(System.String)">
+            <summary>Sets the stub of IEventsService.SearchEvent(String searchTerm)</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubIEventsService.GetEventByIDInt32">
+            <summary>Sets the stub of IEventsService.GetEventByID(Int32 eventID)</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubIEventsService.GetEvents">
+            <summary>Sets the stub of IEventsService.GetEvents()</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubIEventsService.GetPastEvents">
+            <summary>Sets the stub of IEventsService.GetPastEvents()</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubIEventsService.GetUpcomingEvents">
+            <summary>Sets the stub of IEventsService.GetUpcomingEvents()</summary>
+        </member>
+        <member name="F:EventsDemo.Fakes.StubIEventsService.SearchEventString">
+            <summary>Sets the stub of IEventsService.SearchEvent(String searchTerm)</summary>
+        </member>
+        <member name="T:EventsDemo.Models.Fakes.ShimEvent">
+            <summary>Shim type of EventsDemo.Models.Event</summary>
+        </member>
+        <member name="M:EventsDemo.Models.Fakes.ShimEvent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EventsDemo.Models.Fakes.ShimEvent.#ctor(EventsDemo.Models.Event)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EventsDemo.Models.Fakes.ShimEvent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EventsDemo.Models.Fakes.ShimEvent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AddressGet">
+            <summary>Sets the shim of Event.get_Address()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AddressSetString">
+            <summary>Sets the shim of Event.set_Address(String value)</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.Constructor">
+            <summary>Sets the shim of Event.Event()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.DescriptionGet">
+            <summary>Sets the shim of Event.get_Description()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.DescriptionSetString">
+            <summary>Sets the shim of Event.set_Description(String value)</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.HostGet">
+            <summary>Sets the shim of Event.get_Host()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.HostSetString">
+            <summary>Sets the shim of Event.set_Host(String value)</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.IDGet">
+            <summary>Sets the shim of Event.get_ID()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.IDSetInt32">
+            <summary>Sets the shim of Event.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.StartDateTimeGet">
+            <summary>Sets the shim of Event.get_StartDateTime()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.StartDateTimeSetDateTime">
+            <summary>Sets the shim of Event.set_StartDateTime(DateTime value)</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.TitleGet">
+            <summary>Sets the shim of Event.get_Title()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.TitleSetString">
+            <summary>Sets the shim of Event.set_Title(String value)</summary>
+        </member>
+        <member name="T:EventsDemo.Models.Fakes.ShimEvent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.AddressGet">
+            <summary>Sets the shim of Event.get_Address()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.AddressSetString">
+            <summary>Sets the shim of Event.set_Address(String value)</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.DescriptionGet">
+            <summary>Sets the shim of Event.get_Description()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.DescriptionSetString">
+            <summary>Sets the shim of Event.set_Description(String value)</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.HostGet">
+            <summary>Sets the shim of Event.get_Host()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.HostSetString">
+            <summary>Sets the shim of Event.set_Host(String value)</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.IDGet">
+            <summary>Sets the shim of Event.get_ID()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.IDSetInt32">
+            <summary>Sets the shim of Event.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.StartDateTimeGet">
+            <summary>Sets the shim of Event.get_StartDateTime()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.StartDateTimeSetDateTime">
+            <summary>Sets the shim of Event.set_StartDateTime(DateTime value)</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.TitleGet">
+            <summary>Sets the shim of Event.get_Title()</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.ShimEvent.AllInstances.TitleSetString">
+            <summary>Sets the shim of Event.set_Title(String value)</summary>
+        </member>
+        <member name="T:EventsDemo.Models.Fakes.StubEvent">
+            <summary>Stub type of EventsDemo.Models.Event</summary>
+        </member>
+        <member name="M:EventsDemo.Models.Fakes.StubEvent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EventsDemo.Models.Fakes.StubEvent.InitializeStub">
+            <summary>Initializes a new instance of type StubEvent</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.StubEvent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.StubEvent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EventsDemo.Models.Fakes.StubEvent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
